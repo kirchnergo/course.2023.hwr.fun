@@ -70,14 +70,11 @@ let main args =
     |> List.map getGreeting
     |> List.iter (fun greeting -> printfn "%s" greeting)
     0
-
-main
 #+end_src
 
 #+RESULTS:
 : val getGreeting: name: string -> string
 : val main: args: 'a -> int
-: val it: ('a -> int)
 
 ** DONE Programm
 CLOSED: [2023-03-02 Thu 10:57]

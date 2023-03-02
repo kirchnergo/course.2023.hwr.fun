@@ -45,8 +45,6 @@ F# verfügt über zahlreiche Features, einschließlich:
         |> List.map getGreeting
         |> List.iter (fun greeting -> printfn "%s" greeting)
         0
-    
-    main
 
 
 ## Programm
@@ -376,7 +374,7 @@ F# verfügt über zahlreiche Features, einschließlich:
 
     firstTenRandomNumbers;;
     val it: int list =
-      [7279; 14662; 34250; 48383; 54117; 60264; 69839; 69957; 75710; 98256]
+      [10457; 13790; 27634; 36127; 39778; 39796; 45399; 68659; 80446; 87823]
 
 
 ## Collection Functions
@@ -412,15 +410,15 @@ F# verfügt über zahlreiche Features, einschließlich:
     let ls = List.map (fun (_,p) -> String.length p) ps
     printfn "%A" ls
 
-    [91755; 47978]
+    [91948; 50097]
     val sites: string list = ["http://www.bing.com"; "http://www.google.com"]
     val fetch: url: string -> string * string
     val ps: (string * string) list =
       [("http://www.bing.com",
-        "<!doctype html><html lang="de" dir="ltr"><head><meta name="th"+[91694 chars]);
+        "<!doctype html><html lang="de" dir="ltr"><head><meta name="th"+[91887 chars]);
        ("http://www.google.com",
-        "<!doctype html><html itemscope="" itemtype="http://schema.org"+[47917 chars])]
-    val ls: int list = [91755; 47978]
+        "<!doctype html><html itemscope="" itemtype="http://schema.org"+[50036 chars])]
+    val ls: int list = [91948; 50097]
     val it: unit = ()
 
 
@@ -624,7 +622,7 @@ F# verfügt über zahlreiche Features, einschließlich:
     val r1: int = 64
     val r2: int = 81
     val listOfFunctions: (int -> int) list =
-      [<fun:listOfFunctions@1627-18>; <fun:listOfFunctions@1627-19>]
+      [<fun:listOfFunctions@2203-24>; <fun:listOfFunctions@2203-25>]
     val it: unit = ()
 
 
