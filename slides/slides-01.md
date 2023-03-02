@@ -88,14 +88,13 @@ F# verfügt über zahlreiche Features, einschließlich:
 
 -   Testing
 -   Property-Based Testing
--   FParsec
 -   Diamond-Kata?
 -   (Performance)
 
 
 ## Parser Combinators (5)
 
--   Parser Combinator verstehen
+-   Parser Combinators verstehen
 -   FParsec
 -   [Test!]
 
@@ -207,12 +206,12 @@ F# verfügt über zahlreiche Features, einschließlich:
 
 ## Übung 3
 
--   Initialisiere ein git-Repo (z.B. `course.2022.hwr.fun`)
+-   Initialisiere ein git-Repo (z.B. `course.2023.hwr.fun`)
     -   (pull von github)
     -   Committe eine Änderung
     -   Betrachte die Historie
     -   (push nach github)
--   clone [github.com/kirchnergo/course.2022.hwr.fun](https://github.com/kirchnergo/course.2022.hwr.fun)
+-   clone [github.com/kirchnergo/course.2023.hwr.fun](https://github.com/kirchnergo/course.2023.hwr.fun)
 
 
 ## exercism
@@ -377,7 +376,7 @@ F# verfügt über zahlreiche Features, einschließlich:
 
     firstTenRandomNumbers;;
     val it: int list =
-      [29119; 30561; 31691; 32543; 34334; 44759; 47501; 56710; 70223; 91076]
+      [7279; 14662; 34250; 48383; 54117; 60264; 69839; 69957; 75710; 98256]
 
 
 ## Collection Functions
@@ -413,15 +412,15 @@ F# verfügt über zahlreiche Features, einschließlich:
     let ls = List.map (fun (_,p) -> String.length p) ps
     printfn "%A" ls
 
-    [91755; 47955]
+    [91755; 47978]
     val sites: string list = ["http://www.bing.com"; "http://www.google.com"]
     val fetch: url: string -> string * string
     val ps: (string * string) list =
       [("http://www.bing.com",
         "<!doctype html><html lang="de" dir="ltr"><head><meta name="th"+[91694 chars]);
        ("http://www.google.com",
-        "<!doctype html><html itemscope="" itemtype="http://schema.org"+[47894 chars])]
-    val ls: int list = [91755; 47955]
+        "<!doctype html><html itemscope="" itemtype="http://schema.org"+[47917 chars])]
+    val ls: int list = [91755; 47978]
     val it: unit = ()
 
 
@@ -625,7 +624,7 @@ F# verfügt über zahlreiche Features, einschließlich:
     val r1: int = 64
     val r2: int = 81
     val listOfFunctions: (int -> int) list =
-      [<fun:listOfFunctions@1066-12>; <fun:listOfFunctions@1066-13>]
+      [<fun:listOfFunctions@1627-18>; <fun:listOfFunctions@1627-19>]
     val it: unit = ()
 
 
@@ -723,7 +722,7 @@ F# verfügt über zahlreiche Features, einschließlich:
 
 -   [ ] [git Tutorial](https://git-scm.com/docs/gittutorial)
 -   [ ] [Tour durch F#](https://docs.microsoft.com/de-de/dotnet/fsharp/tour)
--   exercism.io (E-Mail bis 19.03, mit *account*!)
+-   exercism.io (E-Mail bis 13.03, mit *account*!)
     -   [ ] Two-Fer
     -   [ ] Leap
     -   [ ] Isogram

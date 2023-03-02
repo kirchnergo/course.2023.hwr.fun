@@ -119,14 +119,13 @@ CLOSED: [2023-03-02 Thu 10:57]
 
 - Testing
 - Property-Based Testing
-- FParsec
 - Diamond-Kata?
 - (Performance)
 
 ** DONE Parser Combinators (5)
 CLOSED: [2023-03-02 Thu 10:57]
 
-- Parser Combinator verstehen
+- Parser Combinators verstehen
 - FParsec
 - [Test!]
 
@@ -238,12 +237,12 @@ CLOSED: [2023-03-02 Thu 10:59]
 ** DONE Übung 3
 CLOSED: [2023-03-02 Thu 10:59]
 
-- Initialisiere ein git-Repo (z.B. =course.2022.hwr.fun=)
+- Initialisiere ein git-Repo (z.B. =course.2023.hwr.fun=)
   - (pull von github)
   - Committe eine Änderung
   - Betrachte die Historie
   - (push nach github)
-- clone [[https://github.com/kirchnergo/course.2022.hwr.fun][github.com/kirchnergo/course.2022.hwr.fun]]
+- clone [[https://github.com/kirchnergo/course.2023.hwr.fun][github.com/kirchnergo/course.2023.hwr.fun]]
 
 ** DONE exercism
 CLOSED: [2023-03-02 Thu 10:59]
@@ -853,7 +852,7 @@ CLOSED: [2023-03-02 Thu 11:06]
 
 - [ ] [[https://git-scm.com/docs/gittutorial][git Tutorial]]
 - [ ] [[https://docs.microsoft.com/de-de/dotnet/fsharp/tour][Tour durch F#]]
-- exercism.io (E-Mail bis 19.03, mit /account/!)
+- exercism.io (E-Mail bis 13.03, mit /account/!)
   - [ ] Two-Fer
   - [ ] Leap
   - [ ] Isogram
